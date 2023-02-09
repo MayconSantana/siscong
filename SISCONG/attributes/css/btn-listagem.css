@@ -1,0 +1,63 @@
+@font-face {
+    font-family: Poppins-Regular;
+    src: url(../fonts/poppins/Poppins-Regular.ttf);
+ }
+
+*{
+    font-family: Poppins-Regular;
+}
+
+table, thead tr th{
+    text-align: center;
+}
+
+td{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20rem;
+
+    padding: 10px 0;
+}
+
+.search{
+    width: 50vw;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.search:focus{
+    outline: none;
+}
+
+.btn-search{
+    height: 32px;
+}
+
+.botoes button{
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background: #337ab7;
+}
+
+.botoes button a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+}
+
+.botoes button:hover{
+    background: #2e93eb;
+    transition: all .3s;
+    transform: translateX(0) scale(1.1);
+}
+
+.btn-cadastro{
+    margin-right: 5rem;
+}
